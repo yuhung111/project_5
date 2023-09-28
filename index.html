@@ -8,10 +8,418 @@
     <link rel="stylesheet" href="./asset/fonts/stylesheet.css">
     <link rel="stylesheet" href="./asset/css/base.css">
     <link rel="stylesheet" href="./asset/css/grid.css">
-    <link rel="stylesheet" href="./asset/css/style.css">
     <link rel="stylesheet" href="./asset/css/responsive.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
 </head>
 <body>
-    <h1>123</h1>
+   <header class="header fixed">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <img class="header__logo--icon" src="asset/icon/online-banking 1.svg" alt="online-banking" class="">
+                        <img class="header__logo--icon" src="asset/icon/CeloBank.svg" alt="" class="celoBank">
+                    </div>
+                    <nav class="header-nav">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__item">
+                                <a href="" class="header-nav__item-link">Home</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a href="" class="header-nav__item-link">Products</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a href="" class="header-nav__item-link">Features</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a href="" class="header-nav__item-link">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__action-btns">
+                        <a href="" class="action-btn">Log in</a>
+                        <a href="" class="btn">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </header>
+   <main class="main">
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <section class="hero__info">
+                        <div class="dash"></div>
+                        <p class="sub-title">Digital Smart Wallet</p>
+                        <h1 class="heading lv1">Digital <span style="color: var(--primary-color);">Payment</span><br>For Everyone.</h1>
+                        <p class="desc">
+                            We bring together eveything that’s required to build websites<br>and apps that accept payments and send payouts globally. We<br>are the best platform.
+                        </p>
+                        <form id="hero__form" class="hero__form">
+                            <input type="text" placeholder="Your email address" name="hero__form" id="">
+                            <button form="hero__form" type="submit" value="submit" class="hero__btn--submit btn">Get Started</button>
+                        </form>
+                        <p class="hero__form--promise">*We’ll respect the inbox and never share your email.</p>
+                    </section>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="hero__demo">
+                        <div class="hero__mobile">
+                            <div class="hero__mobile--deposite">
+                                <img src="asset/icon/Group 5304.svg" alt="" class="hero__mobile--deposite-img">
+                                <span class="hero__mobile--deposite-title">Deposite</span>
+                                <span class="hero__mobile--deposite-value">$32000</span>
+                            </div>
+                            <div class="hero__mobile--head"></div>
+                            <div class="hero__mobile--debit-card">
+                                <img class="hero__mobile--debit-card-pattern-1" src="asset/img/Group 17396.svg" alt="">
+                                <img class="hero__mobile--debit-card-pattern-2" src="asset/img/Group 17397.svg" alt="">
+                                <img class="hero__mobile--debit-card-pattern-3" src="asset/img/Group 17398.svg" alt="">
+                                <div class="hero__mobile--debit-card-main-balance">
+                                    <span class="hero__mobile--debit-card-main-balance-title">Main Balance</span>
+                                    <span class="hero__mobile--debit-card-main-balance-value">$78,355.17</span>
+                                </div>
+                                <div class="hero__mobile--debit-card-info">
+                                    <div class="hero__mobile--debit-card-valid-thur">
+                                        <span class="hero__mobile--debit-card-valid-thur-title">VALID THUR</span>
+                                        <span class="hero__mobile--debit-card-valid-thur-date">08/22</span>
+                                    </div>
+                                    <div class="hero__mobile--debit-card-card-holder">
+                                        <span class="hero__mobile--debit-card-card-holder-title">CARD HOLDER</span>
+                                        <span class="hero__mobile--debit-card-card-holder-name">Md Moshqur Alam</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__mobile--transections">
+                                <span>Transections</span>
+                                <img src="asset/icon/Group 129.svg" alt="" class="hero__mobile--transections-img">
+                            </div>
+                            <ul class="hero__mobile-list">
+                                <li class="hero__mobile-item">
+                                    <img src="asset/img/Group 17406.svg" alt="" class="hero__mobile-item-icon">
+                                    <div class="hero__mobile-item-body">
+                                        <div class="hero__mobile-item--money-status">
+                                            <span class="hero__mobile-item--money-title">Received Money</span>
+                                            <span class="hero__mobile-item--money-value">+$1,600</span>
+                                        </div>
+                                        <div class="hero__mobile-item-info">
+                                            <span class="hero__mobile-item-info-place">email@gmail.com</span>
+                                            <span class="hero__mobile-item-info-date">Sep 23</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="hero__mobile-item">
+                                    <img src="asset/img/Group 17407.svg" alt="" class="hero__mobile-item-icon">
+                                    <div class="hero__mobile-item-body">
+                                        <div class="hero__mobile-item--money-status">
+                                            <span class="hero__mobile-item--money-title">Received Money</span>
+                                            <span class="hero__mobile-item--money-value">+$1,600</span>
+                                        </div>
+                                        <div class="hero__mobile-item-info">
+                                            <span class="hero__mobile-item-info-place">email@gmail.com</span>
+                                            <span class="hero__mobile-item-info-date">Sep 23</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="hero__mobile-item">
+                                    <img src="asset/img/Group 17405.svg" alt="" class="hero__mobile-item-icon">
+                                    <div class="hero__mobile-item-body">
+                                        <div class="hero__mobile-item--money-status">
+                                            <span class="hero__mobile-item--money-title">Received Money</span>
+                                            <span class="hero__mobile-item--money-value">+$1,600</span>
+                                        </div>
+                                        <div class="hero__mobile-item-info">
+                                            <span class="hero__mobile-item-info-place">email@gmail.com</span>
+                                            <span class="hero__mobile-item-info-date">Sep 23</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="hero__mobile-item">
+                                    <img src="asset/img/Group 17404.svg" alt="" class="hero__mobile-item-icon">
+                                    <div class="hero__mobile-item-body">
+                                        <div class="hero__mobile-item--money-status">
+                                            <span class="hero__mobile-item--money-title">Received Money</span>
+                                            <span class="hero__mobile-item--money-value">+$1,600</span>
+                                        </div>
+                                        <div class="hero__mobile-item-info">
+                                            <span class="hero__mobile-item-info-place">email@gmail.com</span>
+                                            <span class="hero__mobile-item-info-date">Sep 23</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="hero__mobile--secured-fund">
+                                <img class="hero__mobile--secured-fund-img" src="asset/img/Group 5301.svg" alt="">
+                                <div class="hero__mobile--secured-fund-info">
+                                    <span class="hero__mobile--secured-money">$1.310</span>
+                                    <span class="hero__mobile--secured-label">SECURED FUNDS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__ellipse">
+                            <span class="hero__ellipse-value">0%</span>
+                            <span class="hero__ellipse-label">Interest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hero hero-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="hero__imgs">
+                        <svg class="" xmlns="http://www.w3.org/2000/svg" width="470" height="550" viewBox="0 0 470 546" fill="none">
+                            <path d="M30 546H440C456.569 546 470 532.569 470 516V88.3968C470 75.5937 461.875 64.2015 449.77 60.0321L282.951 2.57549C271.409 -1.39988 258.593 2.26418 247.853 8.06671C202.721 32.4499 100.198 39.0854 30.8169 39.3354C13.9297 39.3963 0 52.9379 0 69.8252V516C0 532.569 13.4315 546 30 546Z" fill="#92C2C2"/>
+                          </svg>
+                        <img class="hero__model-img" src="asset/img/portrait-joyful-young-man-white-shirt-removebg 1 (1).png" alt="">
+                        <img src="asset/img/Card.svg" alt="" class="hero__img-card">
+                    </div>
+                </div>
+                <section class="col-lg-5 offset-sm-2">
+                    <div class="dash"></div>
+                    <p class="sub-title">Digital Smart Wallet</p>
+                    <h2 class="heading lv2">How It Works</h2>
+                    <div class="hero__steps">
+                        <h3 class="hero__step">1. Open a High Interest Checking account</h3>
+                        <p class="hero__step-desc">Fund your bank account with a minimum balance of $100. Enroll in 3 minutes or less!</p>
+                        <h3 class="hero__step">2. 10 point-of-sale transactions each Month that are at least $10 each.</h3>
+                        <p class="hero__step-desc">Be sure to use your rewards checking account as often as possible in order to accue APYI</p>
+                        <h3 class="hero__step">3. Receive up to 5.50% APY</h3>
+                        <p class="hero__step-desc">The APY you earn will be based on your account balance and satisfying the transaction requirement.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <section class="product__info">
+                        <div class="dash"></div>
+                        <p class="sub-title">Digital Smart Wallet</p>
+                        <h2 class="heading lv2">One Card For All Your Payments</h2>
+                        <p class="desc">
+                            We bring together eveything that’s required to build websites<br>and apps that accept payments and send payouts globally. We<br>are the best platform.
+                        </p>
+                        <ul class="info--advantages">
+                            <li class="info--advantage-item">Global Payments</li>
+                            <li class="info--advantage-item">One-Click Purchase</li>
+                            <li class="info--advantage-item">Friendly Price</li>
+                        </ul>
+                        <div class="btn info-btn">Get Started</div>
+                    </section>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="product__mobile--debit-card">
+                        <img class="product__mobile--debit-card-pattern-1" src="asset/img/Group 17396.svg" alt="">
+                        <img class="product__mobile--debit-card-pattern-2" src="asset/img/Group 17397.svg" alt="">
+                        <img class="product__mobile--debit-card-pattern-3" src="asset/img/Group 17398.svg" alt="">
+                        <div class="product__mobile--debit-card-main-balance">
+                            <span class="product__mobile--debit-card-main-balance-title">Main Balance</span>
+                            <span class="product__mobile--debit-card-main-balance-value">$78,355.17</span>
+                        </div>
+                        <div class="product__mobile--debit-card-info">
+                            <div class="product__mobile--debit-card-valid-thur">
+                                <span class="product__mobile--debit-card-valid-thur-title">VALID THUR</span>
+                                <span class="product__mobile--debit-card-valid-thur-date">08/22</span>
+                            </div>
+                            <div class="product__mobile--debit-card-card-holder">
+                                <span class="product__mobile--debit-card-card-holder-title">CARD HOLDER</span>
+                                <span class="product__mobile--debit-card-card-holder-name">Md Moshqur Alam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__mobile--debit-card-income">
+                        <img alt="" src="asset/icon/Group 17410.svg" class="product__mobile--debit-card-income-icon"></img>
+                        <span class="product__mobile--debit-card-label">Income</span>
+                        <span class="product__mobile--debit-card-value">$1250</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="features__imgs">
+                        <svg class="features__img" xmlns="http://www.w3.org/2000/svg" width="470" height="431" viewBox="0 0 470 431" fill="none">
+                            <path d="M462 431H8C3.58172 431 0 427.418 0 423V98.4538C0 94.6334 2.7012 91.3462 6.44906 90.6056L460.449 0.887429C465.394 -0.0898376 470 3.69476 470 8.73565V423C470 427.418 466.418 431 462 431Z" fill="#92C2C2"/>
+                        </svg>
+                        <img src="asset/img/portrait-expressive-young-woman-with-credit-card-removebg 1.png" alt="" class="features__model-img">
+                        <div class="features__payment-method">
+                            <p class="features__payment-method--title">Choose payment method:</p>
+                            <div class="features__payment-method-list">
+                                <div class="features__payment-method-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="63" height="48" viewBox="0 0 63 48" fill="none">
+                                        <rect width="63" height="48" rx="4" fill="#F2F2FA"/>
+                                        <path d="M52 24C52 30.5846 46.6462 36 40 36C33.4154 36 28 30.5846 28 24C28 17.4154 33.3538 12 39.9385 12C46.6462 12 52 17.4154 52 24Z" fill="#F9B50B"/>
+                                        <path d="M35.9385 24.0615C35.9385 23.2 35.8154 22.3385 35.6923 21.5385H28.3077C28.3692 21.1077 28.4923 20.7385 28.6154 20.2462H35.2C35.0769 19.8154 34.8923 19.3846 34.7077 18.9538H29.1077C29.2923 18.5231 29.5385 18.1538 29.7846 17.6615H34.0308C33.7846 17.2308 33.4769 16.8 33.1077 16.3692H30.7692C31.1385 15.9385 31.5077 15.5692 32 15.1385C29.9077 13.1692 27.0769 12 23.9385 12C17.4154 12.1846 12 17.4154 12 24C12 30.5846 17.3538 36 24 36C27.1385 36 29.9077 34.7692 32.0615 32.8615C32.4923 32.4923 32.8615 32.0615 33.2923 31.5692H30.8308C30.5231 31.2 30.2154 30.7692 29.9692 30.3385H34.1538C34.4 29.9692 34.6462 29.5385 34.8308 29.0462H29.2308C29.0462 28.6769 28.8615 28.2462 28.7385 27.7538H35.3231C35.6923 26.6462 35.9385 25.4154 35.9385 24.0615Z" fill="#C8191C"/>
+                                        <path d="M28.2464 27.0771L28.431 25.9694C28.3695 25.9694 28.2464 26.0309 28.1233 26.0309C27.6925 26.0309 27.631 25.7847 27.6925 25.6617L28.0618 23.4463H28.7387L28.9233 22.2155H28.3079L28.431 21.4771H27.1387C27.1387 21.4771 26.4002 25.6617 26.4002 26.154C26.4002 26.8924 26.831 27.2617 27.4464 27.2617C27.8156 27.2617 28.1233 27.1386 28.2464 27.0771Z" fill="white"/>
+                                        <path d="M28.6767 25.0461C28.6767 26.8307 29.9075 27.2615 30.8921 27.2615C31.8152 27.2615 32.2459 27.0769 32.2459 27.0769L32.4921 25.8461C32.4921 25.8461 31.8152 26.1538 31.1382 26.1538C29.7229 26.1538 29.969 25.1077 29.969 25.1077H32.5536C32.5536 25.1077 32.7382 24.3077 32.7382 23.9384C32.7382 23.1384 32.3075 22.0923 30.8921 22.0923C29.6613 22.0307 28.6767 23.4461 28.6767 25.0461ZM30.8921 23.2C31.569 23.2 31.4459 24 31.4459 24.0615H30.0305C30.0921 24 30.2152 23.2 30.8921 23.2Z" fill="white"/>
+                                        <path d="M38.9536 27.077L39.1998 25.6616C39.1998 25.6616 38.5844 25.9693 38.0921 25.9693C37.2305 25.9693 36.7998 25.2923 36.7998 24.4923C36.7998 22.9539 37.5382 22.1539 38.4613 22.1539C39.0767 22.1539 39.6305 22.5231 39.6305 22.5231L39.8152 21.1693C39.8152 21.1693 39.0767 20.8616 38.3382 20.8616C36.8613 20.8616 35.4459 22.1539 35.4459 24.5539C35.4459 26.1539 36.1844 27.2 37.7228 27.2C38.2767 27.2616 38.9536 27.077 38.9536 27.077Z" fill="white"/>
+                                        <path d="M21.2918 22.0308C20.4303 22.0308 19.7534 22.2769 19.7534 22.2769L19.5687 23.3846C19.5687 23.3846 20.1226 23.1385 20.9841 23.1385C21.4149 23.1385 21.7841 23.2 21.7841 23.5692C21.7841 23.8154 21.7226 23.8769 21.7226 23.8769H21.1687C20.061 23.8769 18.8918 24.3077 18.8918 25.7846C18.8918 26.9538 19.6303 27.2 20.1226 27.2C20.9841 27.2 21.4149 26.6461 21.4764 26.6461L21.4149 27.1385H22.461L22.9534 23.6308C22.9534 22.0923 21.7226 22.0308 21.2918 22.0308ZM21.538 24.8615C21.538 25.0461 21.4149 26.0923 20.6764 26.0923C20.3072 26.0923 20.1841 25.7846 20.1841 25.6C20.1841 25.2923 20.3687 24.8615 21.3534 24.8615C21.4764 24.8615 21.538 24.8615 21.538 24.8615Z" fill="white"/>
+                                        <path d="M24.1851 27.2C24.4928 27.2 26.0928 27.2615 26.0928 25.5385C26.0928 23.9385 24.5543 24.2462 24.5543 23.6308C24.5543 23.3231 24.8005 23.2 25.2313 23.2C25.4159 23.2 26.0928 23.2615 26.0928 23.2615L26.2774 22.0923C26.2774 22.0923 25.8466 21.9692 25.0466 21.9692C24.1236 21.9692 23.1389 22.3385 23.1389 23.6308C23.1389 25.1077 24.7389 24.9846 24.7389 25.5385C24.7389 25.9077 24.3082 25.9692 24.0005 25.9692C23.4466 25.9692 22.8313 25.7846 22.8313 25.7846L22.6466 26.9539C22.7697 27.0769 23.1389 27.2 24.1851 27.2Z" fill="white"/>
+                                        <path d="M49.5382 21.0461L49.2921 22.7692C49.2921 22.7692 48.7997 22.1538 48.0613 22.1538C46.8921 22.1538 45.9074 23.5692 45.9074 25.2308C45.9074 26.2769 46.3997 27.3231 47.5074 27.3231C48.2459 27.3231 48.7382 26.8308 48.7382 26.8308L48.6767 27.2615H49.969L50.8921 21.1692L49.5382 21.0461ZM48.9228 24.3692C48.9228 25.0461 48.6151 25.9692 47.8767 25.9692C47.4459 25.9692 47.1997 25.6 47.1997 24.9231C47.1997 23.8769 47.6305 23.2615 48.2459 23.2615C48.6767 23.3231 48.9228 23.6308 48.9228 24.3692Z" fill="white"/>
+                                        <path d="M14.339 27.1385L15.0774 22.5846L15.2005 27.1385H16.062L17.7236 22.5846L17.0466 27.1385H18.4005L19.4466 21.0461H17.3543L16.062 24.8L16.0005 21.0461H14.1543L13.1082 27.1385H14.339Z" fill="white"/>
+                                        <path d="M34.0308 27.1384C34.4 25.0461 34.4615 23.323 35.3846 23.6307C35.5077 22.8307 35.6923 22.4615 35.8154 22.1538H35.5692C35.0154 22.1538 34.5231 22.8923 34.5231 22.8923L34.6462 22.2153H33.4154L32.6154 27.1384H34.0308Z" fill="white"/>
+                                        <path d="M41.9072 22.0308C41.0457 22.0308 40.3687 22.2769 40.3687 22.2769L40.1841 23.3846C40.1841 23.3846 40.738 23.1385 41.5995 23.1385C42.0303 23.1385 42.3995 23.2 42.3995 23.5692C42.3995 23.8154 42.338 23.8769 42.338 23.8769H41.7841C40.6764 23.8769 39.5072 24.3077 39.5072 25.7846C39.5072 26.9538 40.2457 27.2 40.738 27.2C41.5995 27.2 42.0303 26.6461 42.0918 26.6461L42.0303 27.1385H43.1995L43.6918 23.6308C43.6918 22.0923 42.338 22.0308 41.9072 22.0308ZM42.2149 24.8615C42.2149 25.0461 42.0918 26.0923 41.3534 26.0923C40.9841 26.0923 40.861 25.7846 40.861 25.6C40.861 25.2923 41.0457 24.8615 42.0303 24.8615C42.1534 24.8615 42.1534 24.8615 42.2149 24.8615Z" fill="white"/>
+                                        <path d="M44.6774 27.1384C45.0466 25.0461 45.1082 23.323 46.0313 23.6307C46.1543 22.8307 46.3389 22.4615 46.462 22.1538H46.2159C45.662 22.1538 45.1697 22.8923 45.1697 22.8923L45.2928 22.2153H44.062L43.262 27.1384H44.6774Z" fill="white"/>
+                                    </svg>
+                                </div>
+                                <div class="features__payment-method-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="63" height="48" viewBox="0 0 63 48" fill="none">
+                                        <rect width="63" height="48" rx="4" fill="#F2F2FA"/>
+                                        <path d="M31.0926 32.8737C33.5012 30.6553 35.0224 27.4861 35.0224 24C35.0224 20.4505 33.5012 17.2814 31.0926 15.1263C28.9376 13.2248 26.1487 12.0205 23.0429 12.0205C16.3876 12.0205 11 17.4081 11 24C11 30.6553 16.3876 36.0429 23.0429 36.0429C26.1487 35.9795 28.9376 34.7753 31.0926 32.8737Z" fill="#3362AB"/>
+                                        <path d="M31.0921 32.8737C33.5007 30.6552 35.0219 27.486 35.0219 23.9999C35.0219 20.4505 33.5007 17.2813 31.0921 15.1262" fill="#3362AB"/>
+                                        <path d="M31.0921 32.8737C33.5007 30.6552 35.0219 27.486 35.0219 23.9999C35.0219 20.4505 33.5007 17.2813 31.0921 15.1262" stroke="#3362AB" stroke-width="0.3097"/>
+                                        <path d="M39.1429 11.957C36.0371 11.957 33.1848 13.1613 31.0931 15.0628C30.6494 15.4431 30.2691 15.8868 29.8888 16.3305H32.2974C32.6143 16.7108 32.9312 17.1545 33.1848 17.5982H28.9381C28.6845 17.9785 28.431 18.4222 28.2409 18.8659H33.882C34.0721 19.3095 34.2623 19.6898 34.3891 20.1335H27.7338C27.607 20.5772 27.4803 20.9575 27.3535 21.4012H34.706C34.8961 22.2252 34.9595 23.0492 34.9595 23.9365C34.9595 25.2676 34.7694 26.5353 34.3257 27.7396H27.6704C27.7972 28.1833 27.9873 28.6269 28.1775 29.0072H33.8186C33.6285 29.4509 33.3749 29.8946 33.1214 30.2749H28.8747C29.1282 30.7186 29.4451 31.1623 29.7621 31.5426H32.1707C31.7903 31.9863 31.41 32.43 30.9663 32.8103C33.1214 34.7118 35.9103 35.9161 39.0161 35.9161C45.6714 35.9161 50.9956 30.5285 50.9956 23.8732C51.1857 17.3446 45.7981 11.957 39.1429 11.957Z" fill="#C9191B"/>
+                                        <path d="M21.5219 26.9156H20.0007L20.8881 22.2252L18.8598 26.9156H17.5288L17.2752 22.2886L16.3878 26.9156H15.0568L16.1977 20.8308H18.5429L18.6697 24.6338L20.3176 20.8308H22.7262L21.5219 26.9156Z" fill="white"/>
+                                        <path d="M38.2552 26.9155C37.8749 27.0423 37.4946 27.1056 37.1777 27.1056C36.4171 27.1056 35.9734 26.7253 35.9734 26.0281C35.9734 25.9014 35.9734 25.7112 36.0368 25.5844L36.1002 25.0774L36.1636 24.6971L36.8608 20.894H38.3186L38.1285 22.035H38.8891L38.6989 23.2392H37.9383L37.558 25.3309C37.558 25.3943 37.558 25.5211 37.558 25.5211C37.558 25.7746 37.7482 25.9014 38.0651 25.9014C38.2552 25.9014 38.382 25.9014 38.4454 25.838L38.2552 26.9155Z" fill="white"/>
+                                        <path d="M42.5656 22.0351C42.4388 21.9717 42.4388 21.9717 42.3754 21.9717C42.312 21.9717 42.2486 21.9717 42.2486 21.9717C42.1853 21.9717 42.1219 21.9717 42.0585 21.9717C41.5514 21.9717 41.2345 22.1618 40.7274 22.7957L40.8542 22.0351H39.6499L38.7625 26.979H40.2837C40.7908 23.9366 41.0443 23.4295 41.7416 23.4295C41.8049 23.4295 41.8683 23.4295 41.9317 23.4295L42.1219 23.4929L42.5656 22.0351Z" fill="white"/>
+                                        <path d="M32.2964 23.5562C32.2964 24.19 32.6767 24.6337 33.4374 24.9506C34.0712 25.2042 34.1346 25.2675 34.1346 25.5211C34.1346 25.838 33.881 25.9648 33.2472 25.9648C32.8035 25.9648 32.3598 25.9014 31.9161 25.7746L31.726 26.9155H31.7894L32.0429 26.9789C32.1063 26.9789 32.2964 27.0423 32.4232 27.0423C32.8035 27.0423 33.057 27.1057 33.2472 27.1057C34.8318 27.1057 35.5924 26.5986 35.5924 25.4577C35.5924 24.7605 35.2755 24.3802 34.5149 24.0632C33.881 23.8097 33.8176 23.7463 33.8176 23.4928C33.8176 23.2393 34.0712 23.1125 34.5782 23.1125C34.8952 23.1125 35.2755 23.1125 35.6558 23.1759L35.8459 22.035C35.4656 21.9716 34.8952 21.9082 34.5149 21.9082C32.8669 21.9082 32.2964 22.6688 32.2964 23.5562Z" fill="white"/>
+                                        <path d="M25.3252 24.7605C25.1351 24.7605 25.0717 24.7605 25.0083 24.7605C24.1843 24.7605 23.7406 25.014 23.7406 25.5211C23.7406 25.838 23.9308 26.0281 24.2477 26.0281C24.8182 25.9648 25.2618 25.4577 25.3252 24.7605ZM26.4027 26.9155H25.1351L25.1985 26.4084C24.8182 26.7888 24.3111 26.9789 23.6139 26.9789C22.7899 26.9789 22.2828 26.4084 22.2828 25.6478C22.2828 24.4435 23.2336 23.7463 24.8815 23.7463C25.0717 23.7463 25.2618 23.7463 25.5154 23.8097C25.5788 23.6196 25.5787 23.5562 25.5787 23.4928C25.5787 23.1759 25.3252 23.0491 24.628 23.0491C24.1843 23.0491 23.7406 23.1125 23.4237 23.1759L23.2336 23.2393L23.1068 23.3026L23.2969 22.1617C24.0576 21.9716 24.5012 21.9082 25.0717 21.9082C26.3394 21.9082 27.0366 22.4153 27.0366 23.366C27.0366 23.6196 27.0366 23.8097 26.9098 24.3168L26.5929 26.0915L26.5295 26.4084L26.4661 26.662V26.8521L26.4027 26.9155Z" fill="white"/>
+                                        <path d="M30.5219 23.8733C30.5219 23.7465 30.5219 23.6831 30.5219 23.6197C30.5219 23.2394 30.2684 22.9859 29.8247 22.9859C29.3176 22.9859 29.0007 23.3028 28.874 23.8733H30.5219ZM31.2825 26.8523C30.7755 26.9791 30.2684 27.0424 29.7613 27.0424C28.1134 27.0424 27.226 26.2818 27.226 24.824C27.226 23.1127 28.3035 21.845 29.8247 21.845C31.029 21.845 31.853 22.5422 31.853 23.6197C31.853 24 31.7896 24.3169 31.6628 24.824H28.6838C28.6838 24.8874 28.6838 24.9508 28.6838 24.9508C28.6838 25.5212 29.1275 25.8381 30.0149 25.8381C30.5219 25.8381 31.029 25.7114 31.5995 25.5212L31.2825 26.8523Z" fill="white"/>
+                                        <path d="M45.6711 24.0632C45.6711 23.5562 45.481 23.0491 44.8471 23.0491C44.0865 23.0491 43.6428 23.9365 43.6428 24.7605C43.6428 25.4577 43.9598 25.9014 44.5302 25.9014C44.8471 25.9014 45.5444 25.4577 45.6711 24.6971C45.6711 24.5069 45.6711 24.2534 45.6711 24.0632ZM47.2557 24.6971C47.0022 26.3451 45.8613 27.1057 44.3401 27.1057C42.6287 27.1057 41.9949 26.0915 41.9949 24.8239C41.9949 23.0491 43.1358 21.9082 44.9105 21.9082C46.4951 21.9082 47.2557 22.859 47.2557 24.1266C47.3191 24.3802 47.3191 24.3802 47.2557 24.6971Z" fill="white"/>
+                                    </svg>
+                                </div>
+                                <div class="features__payment-method-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="63" height="48" viewBox="0 0 63 48" fill="none">
+                                        <rect width="63" height="48" rx="4" fill="#F2F2FA"/>
+                                        <path d="M34.4667 23.4976L31.681 20.4203L28.5857 23.1836L31.3714 26.3237L34.4667 23.4976Z" fill="#137ABE"/>
+                                        <path d="M26.3571 17.9082L29.1429 20.9855L32.2381 18.2222L29.4524 15.1449L26.3571 17.9082Z" fill="#137ABE"/>
+                                        <path d="M36.6333 28.8357L33.8476 25.7585L30.7524 28.5845L33.5381 31.6618L36.6333 28.8357Z" fill="#137ABE"/>
+                                        <path d="M33.4143 33.9855L28.3381 28.2705L29.7619 27.0145L26.1714 22.9952L27.5952 21.7391L24.0048 17.7198L29.6381 12.6329L31.4333 14.5797L34.5286 11.8792L36.3238 13.7633L37.5 12.6957C37.2524 12.57 36.9429 12.3816 36.6952 12.256C34.9 11.5024 32.981 11 30.9381 11C23.819 11 18 16.8406 18 24C18 31.1594 23.819 37 31 37C33.3524 37 35.519 36.372 37.3762 35.3043C37.9952 34.9275 38.5524 34.5507 39.1095 34.1739L36.5095 31.2222L33.4143 33.9855Z" fill="#137ABE"/>
+                                        <path d="M32.0524 16.401L34.0952 18.7246L36.4476 16.6522L34.3429 14.3285L32.0524 16.401Z" fill="#137ABE"/>
+                                        <path d="M38.5524 21.2995L36.4476 18.9758L34.1571 21.1111L36.2619 23.372L38.5524 21.2995Z" fill="#137ABE"/>
+                                        <path d="M40.5333 26.1981L38.4286 23.8744L36.1381 25.9469L38.2429 28.3333L40.5333 26.1981Z" fill="#137ABE"/>
+                                        <path d="M40.6571 18.5362L39.1095 19.9179L40.5333 21.4879L42.019 20.1063L40.6571 18.5362Z" fill="#137ABE"/>
+                                        <path d="M41.0905 24.5024L42.4524 26.0725L44 24.6908L42.5762 23.1208L41.0905 24.5024Z" fill="#137ABE"/>
+                                        <path d="M37.1286 15.3333L38.5524 16.9034L40.0381 15.5217L38.6762 13.9517L37.1286 15.3333Z" fill="#137ABE"/>
+                                        <path d="M38.181 30.657L40.2857 32.9807L42.5762 30.9082L40.4714 28.5845L38.181 30.657Z" fill="#137ABE"/>
+                                    </svg>
+                                </div>
+                                <div class="features__payment-method-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="63" height="48" viewBox="0 0 63 48" fill="none">
+                                        <rect width="63" height="48" rx="4" fill="#F2F2FA"/>
+                                        <path d="M48.3101 17.5349H45.7955C45.0353 17.5349 44.4505 17.7688 44.0996 18.5291L39.3044 29.4647H42.6961C42.6961 29.4647 43.2809 28.0027 43.3979 27.6518C43.7488 27.6518 47.0821 27.6518 47.5499 27.6518C47.6669 28.0612 47.9593 29.4062 47.9593 29.4062H51.0002L48.3101 17.5349ZM44.3336 25.1957C44.626 24.4939 45.6201 21.8624 45.6201 21.8624C45.6201 21.9209 45.9125 21.1606 46.0295 20.7513L46.2634 21.8039C46.2634 21.8039 46.9066 24.6694 47.0236 25.2542H44.3336V25.1957Z" fill="#3362AB"/>
+                                        <path d="M39.5378 25.5467C39.5378 28.0028 37.3156 29.6403 33.8653 29.6403C32.4033 29.6403 30.9998 29.3479 30.2396 28.997L30.7074 26.3069L31.1168 26.4824C32.1694 26.9502 32.8712 27.1256 34.1577 27.1256C35.0934 27.1256 36.0875 26.7748 36.0875 25.9561C36.0875 25.4297 35.6782 25.0789 34.3916 24.4941C33.1636 23.9093 31.5261 22.9736 31.5261 21.2777C31.5261 18.9386 33.8068 17.3596 37.0232 17.3596C38.2512 17.3596 39.3039 17.5935 39.9471 17.8859L39.4793 20.459L39.2454 20.2251C38.6606 19.9912 37.9004 19.7573 36.7893 19.7573C35.5612 19.8157 34.9764 20.3421 34.9764 20.8099C34.9764 21.3362 35.6782 21.7456 36.7893 22.2719C38.6606 23.1491 39.5378 24.1432 39.5378 25.5467Z" fill="#3362AB"/>
+                                        <path d="M11 17.6521L11.0585 17.4182H16.0877C16.7894 17.4182 17.3158 17.6521 17.4912 18.4124L18.6023 23.6755C17.4912 20.8685 14.9181 18.5878 11 17.6521Z" fill="#F9B50B"/>
+                                        <path d="M25.6788 17.535L20.5911 29.4063H17.1408L14.2169 19.4649C16.3221 20.8099 18.0765 22.9151 18.7198 24.3771L19.0707 25.6052L22.2285 17.4766H25.6788V17.535Z" fill="#3362AB"/>
+                                        <path d="M27.023 17.4766H30.2394L28.1926 29.4063H24.9763L27.023 17.4766Z" fill="#3362AB"/>
+                                    </svg>
+                                </div>
+                                <div class="features__payment-method-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="63" height="48" viewBox="0 0 63 48" fill="none">
+                                        <rect width="63" height="48" rx="4" fill="#F2F2FA"/>
+                                        <path d="M48.3101 17.5349H45.7955C45.0353 17.5349 44.4505 17.7688 44.0996 18.5291L39.3044 29.4647H42.6961C42.6961 29.4647 43.2809 28.0027 43.3979 27.6518C43.7488 27.6518 47.0821 27.6518 47.5499 27.6518C47.6669 28.0612 47.9593 29.4062 47.9593 29.4062H51.0002L48.3101 17.5349ZM44.3336 25.1957C44.626 24.4939 45.6201 21.8624 45.6201 21.8624C45.6201 21.9209 45.9125 21.1606 46.0295 20.7513L46.2634 21.8039C46.2634 21.8039 46.9066 24.6694 47.0236 25.2542H44.3336V25.1957Z" fill="#3362AB"/>
+                                        <path d="M39.5378 25.5467C39.5378 28.0028 37.3156 29.6403 33.8653 29.6403C32.4033 29.6403 30.9998 29.3479 30.2396 28.997L30.7074 26.3069L31.1168 26.4824C32.1694 26.9502 32.8712 27.1256 34.1577 27.1256C35.0934 27.1256 36.0875 26.7748 36.0875 25.9561C36.0875 25.4297 35.6782 25.0789 34.3916 24.4941C33.1636 23.9093 31.5261 22.9736 31.5261 21.2777C31.5261 18.9386 33.8068 17.3596 37.0232 17.3596C38.2512 17.3596 39.3039 17.5935 39.9471 17.8859L39.4793 20.459L39.2454 20.2251C38.6606 19.9912 37.9004 19.7573 36.7893 19.7573C35.5612 19.8157 34.9764 20.3421 34.9764 20.8099C34.9764 21.3362 35.6782 21.7456 36.7893 22.2719C38.6606 23.1491 39.5378 24.1432 39.5378 25.5467Z" fill="#3362AB"/>
+                                        <path d="M11 17.6521L11.0585 17.4182H16.0877C16.7894 17.4182 17.3158 17.6521 17.4912 18.4124L18.6023 23.6755C17.4912 20.8685 14.9181 18.5878 11 17.6521Z" fill="#F9B50B"/>
+                                        <path d="M25.6788 17.535L20.5911 29.4063H17.1408L14.2169 19.4649C16.3221 20.8099 18.0765 22.9151 18.7198 24.3771L19.0707 25.6052L22.2285 17.4766H25.6788V17.535Z" fill="#3362AB"/>
+                                        <path d="M27.023 17.4766H30.2394L28.1926 29.4063H24.9763L27.023 17.4766Z" fill="#3362AB"/>
+                                    </svg>
+                                </div>
+                                <div class="features__payment-method-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="63" height="48" viewBox="0 0 63 48" fill="none">
+                                        <rect width="63" height="48" rx="4" fill="#F9EA63"/>
+                                        <path d="M32.5 16H30.5V22.5H24V24.5H30.5V31H32.5V24.5H39V22.5H32.5V16Z" fill="#212832"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="features__icon" src="asset/icon/Group 2700.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="features__info">
+                        <div class="dash"></div>
+                        <p class="sub-title">Digital Smart Wallet</p>
+                        <h2 class="heading lv2">Transfer and Deposite Your Money Anytime</h2>
+                        <p class="desc">We bring together eveything that’s required to build websites and apps that accept payments and send payouts globally. We are the best platform.</p>
+                        <ul class="info--advantages">
+                            <li class="info--advantage-item">Global Payments</li>
+                            <li class="info--advantage-item">One-Click Purchase</li>
+                            <li class="info--advantage-item">Friendly Price</li>
+                        </ul>
+                        <div class="btn info-btn">Get Started</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <section class="clients__title-wrap">
+                        <div class="dash"></div>
+                        <p class="sub-title">Our Testimonial</p>
+                        <h2 class="heading lv2">What Clients Says</h2>
+                        <p class="desc">Read what clients says about us and about our online<br>banking services that may inspire you</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="client__comments">
+            <div class="row">
+                <div class="col-lg-6">
+                    <svg class="client__comment-background" xmlns="http://www.w3.org/2000/svg" width="678" height="422" viewBox="0 0 678 422" fill="none">
+                        <g filter="url(#filter0_d_2_120)">
+                          <path d="M62 32C57.5817 32 54 35.5864 54 40.0105V278.323C54 282.748 57.5817 286.334 62 286.334H291L335.441 344.41C337.041 346.53 340.222 346.53 341.822 344.41L386.263 286.334H616C620.418 286.334 624 282.748 624 278.323V40.0105C624 35.5864 620.418 32 616 32H62Z" fill="white"/>
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_2_120" x="0" y="0" width="678" height="422" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="22"/>
+                            <feGaussianBlur stdDeviation="27"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_120"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_120" result="shape"/>
+                          </filter>
+                        </defs>
+                    </svg>
+                    <p class="client__comment">
+                        Fantastic platform for online banking. The best online banking platform I have used. Payments, loans, and money transfers have never been so much easier before. I am very much happy about this great online bank.
+                    </p>
+                    <div class="client__avatar-block">
+                        <img src="asset/img/image 731.png" alt="" class="client__avatar--img">
+                        <h4 class="client__avatar--name">Alastair Cook</h4>
+                        <p class="client__avatar--label">Businessmen</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <svg class="client__comment-background" xmlns="http://www.w3.org/2000/svg" width="678" height="422" viewBox="0 0 678 422" fill="none">
+                        <g filter="url(#filter0_d_2_120)">
+                            <path d="M62 32C57.5817 32 54 35.5864 54 40.0105V278.323C54 282.748 57.5817 286.334 62 286.334H291L335.441 344.41C337.041 346.53 340.222 346.53 341.822 344.41L386.263 286.334H616C620.418 286.334 624 282.748 624 278.323V40.0105C624 35.5864 620.418 32 616 32H62Z" fill="white"/>
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_2_120" x="0" y="0" width="678" height="422" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="22"/>
+                            <feGaussianBlur stdDeviation="27"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_120"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_120" result="shape"/>
+                            </filter>
+                        </defs>
+                    </svg>
+                    <p class="client__comment">
+                        Fantastic platform for online banking. The best online banking platform I have used. Payments, loans, and money transfers have never been so much easier before. I am very much happy about this great online bank.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+   </main>
 </body>
 </html>
