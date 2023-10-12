@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+    <title>CeloBank</title>
     <link rel="stylesheet" href="./asset/css/reset.css">
     <link rel="stylesheet" href="./asset/fonts/stylesheet.css">
     <link rel="stylesheet" href="./asset/css/base.css">
     <link rel="stylesheet" href="./asset/css/grid.css">
     <link rel="stylesheet" href="./asset/css/responsive.css">
     <link rel="stylesheet" href="./asset/css/style.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="./asset/animation/animate.min.css">
 </head>
 <body>
    <header class="header fixed">
@@ -17,7 +19,7 @@
         <div class="row">
             <div class="col">
                 <div class="header__content">
-                    <div class="header__logo">
+                    <div class="logo">
                         <img class="header__logo--icon" src="asset/icon/online-banking 1.svg" alt="online-banking" class="">
                         <img class="header__logo--icon" src="asset/icon/CeloBank.svg" alt="" class="celoBank">
                     </div>
@@ -356,70 +358,202 @@
     <section class="clients">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <section class="clients__title-wrap">
+                <div class="col-12">
+                    <section class="clients__intro">
                         <div class="dash"></div>
-                        <p class="sub-title">Our Testimonial</p>
+                        <p class="sub-title">Digital Smart Wallet</p>
                         <h2 class="heading lv2">What Clients Says</h2>
-                        <p class="desc">Read what clients says about us and about our online<br>banking services that may inspire you</p>
+                        <p class="clients__desc">
+                            Read what clients says about us and about our online banking services that may inspire you
+                        </p>
                     </section>
                 </div>
-            </div>
-        </div>
-        <div class="client__comments">
-            <div class="row">
-                <div class="col-lg-6">
-                    <svg class="client__comment-background" xmlns="http://www.w3.org/2000/svg" width="678" height="422" viewBox="0 0 678 422" fill="none">
-                        <g filter="url(#filter0_d_2_120)">
-                          <path d="M62 32C57.5817 32 54 35.5864 54 40.0105V278.323C54 282.748 57.5817 286.334 62 286.334H291L335.441 344.41C337.041 346.53 340.222 346.53 341.822 344.41L386.263 286.334H616C620.418 286.334 624 282.748 624 278.323V40.0105C624 35.5864 620.418 32 616 32H62Z" fill="white"/>
-                        </g>
-                        <defs>
-                          <filter id="filter0_d_2_120" x="0" y="0" width="678" height="422" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                            <feOffset dy="22"/>
-                            <feGaussianBlur stdDeviation="27"/>
-                            <feComposite in2="hardAlpha" operator="out"/>
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_120"/>
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_120" result="shape"/>
-                          </filter>
-                        </defs>
-                    </svg>
-                    <p class="client__comment">
-                        Fantastic platform for online banking. The best online banking platform I have used. Payments, loans, and money transfers have never been so much easier before. I am very much happy about this great online bank.
-                    </p>
-                    <div class="client__avatar-block">
-                        <img src="asset/img/image 731.png" alt="" class="client__avatar--img">
-                        <h4 class="client__avatar--name">Alastair Cook</h4>
-                        <p class="client__avatar--label">Businessmen</p>
+                <div class="col-md-6 col-12">
+                    <div class="clients__client">
+                        <div class="clients__quote-wrap">
+                            <p class="clients__quote">
+                                Fantastic platform for online banking. The best online banking platform I have used. Payments, loans, and money transfers have never been so much easier before. I am very much happy about this great online bank.
+                            </p>
+                        </div>
+                        <div class="clients__people">
+                            <div class="clients__block-avt">
+                                <img src="asset/img/image 731.png" alt="" class="clients__avt">
+                            </div>
+                            <h3 class="clients__name">Alastair Cook</h3>
+                            <span class="clients__job">Businessmen</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <svg class="client__comment-background" xmlns="http://www.w3.org/2000/svg" width="678" height="422" viewBox="0 0 678 422" fill="none">
-                        <g filter="url(#filter0_d_2_120)">
-                            <path d="M62 32C57.5817 32 54 35.5864 54 40.0105V278.323C54 282.748 57.5817 286.334 62 286.334H291L335.441 344.41C337.041 346.53 340.222 346.53 341.822 344.41L386.263 286.334H616C620.418 286.334 624 282.748 624 278.323V40.0105C624 35.5864 620.418 32 616 32H62Z" fill="white"/>
-                        </g>
-                        <defs>
-                            <filter id="filter0_d_2_120" x="0" y="0" width="678" height="422" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                            <feOffset dy="22"/>
-                            <feGaussianBlur stdDeviation="27"/>
-                            <feComposite in2="hardAlpha" operator="out"/>
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_120"/>
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_120" result="shape"/>
-                            </filter>
-                        </defs>
-                    </svg>
-                    <p class="client__comment">
-                        Fantastic platform for online banking. The best online banking platform I have used. Payments, loans, and money transfers have never been so much easier before. I am very much happy about this great online bank.
-                    </p>
+                <div class="col-md-6 col-12">
+                    <div class="clients__client">
+                        <div class="clients__quote-wrap">
+                            <p class="clients__quote">
+                                Fantastic platform for online banking. The best online banking platform I have used. Payments, loans, and money transfers have never been so much easier before. I am very much happy about this great online bank.
+                            </p>
+                        </div>
+                        <div class="clients__people">
+                            <div class="clients__block-avt-2">
+                                <img src="asset/img/image 856.png" alt="" class="clients__avt">
+                            </div>
+                            <h3 class="clients__name">Alastair Cook</h3>
+                            <span class="clients__job">Businessmen</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="clients__dots">
+                        <div class="clients__dot clients__dot--active"></div>
+                        <div class="clients__dot"></div>
+                        <div class="clients__dot"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="dash"></div>
+                    <p class="sub-title">Digital Smart Wallet</p>
+                    <h2 class="blog__heading heading lv2">
+                        Get The Updates
+                    </h2>
+                    <p class="blog__desc">
+                        Read our blog for the regular updates about us and about our online banking services that may inspire you
+                    </p>
+                </div>
+                <div class="col-md-2 col-12 offset-md-6">
+                    <div class="blog__btn-wrap">
+                        <div class="blog__btn btn">Read All</div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog__list">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <article class="blog__item">
+                            <img src="asset/img/Rectangle 4513.png" alt="" class="blog__item-img">
+                            <div class="blog__item-info">
+                                <span class="blog__item-date">July 03, 2022</span>
+                                <p class="blog__item-title">Online bank is the best and secure way to save in the future...</p>
+                                <a href="" class="blog__item-link">Read Blog</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <article class="blog__item">
+                            <img src="asset/img/Rectangle 4513 (1).png" alt="" class="blog__item-img">
+                            <div class="blog__item-info">
+                                <span class="blog__item-date">July 03, 2022</span>
+                                <p class="blog__item-title">Online bank is the best and secure way to save in the future...</p>
+                                <a href="" class="blog__item-link">Read Blog</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <article class="blog__item">
+                            <img src="asset/img/Rectangle 4513 (2).png" alt="" class="blog__item-img">
+                            <div class="blog__item-info">
+                                <span class="blog__item-date">July 03, 2022</span>
+                                <p class="blog__item-title">Online bank is the best and secure way to save in the future...</p>
+                                <a href="" class="blog__item-link">Read Blog</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <article class="blog__item">
+                            <img src="asset/img/Rectangle 4513 (3).png" alt="" class="blog__item-img">
+                            <div class="blog__item-info">
+                                <span class="blog__item-date">July 03, 2022</span>
+                                <p class="blog__item-title">Online bank is the best and secure way to save in the future...</p>
+                                <a href="" class="blog__item-link">Read Blog</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="download__content">
+                        <div class="dash download__dash"></div>
+                        <div class="sub-title download__sub-title">Our App</div>
+                        <h2 class="heading lv2 download__heading">Download the Apps</h2>
+                        <p class="download__desc">
+                            Download our mobile apps and get started today with a special online bank and move faster
+                        </p>
+                        <div class="download__apps">
+                            <div class="download__app">
+                                <img src="asset/img/Group 5368.svg" alt="">
+                            </div>
+                            <div class="download__app">
+                                <img src="asset/img/Group 5367.svg" alt="">
+                            </div>
+                        </div>
+                        <img src="asset/img/Star.svg" alt="" class="download__star-pattern">
+                        <img src="asset/img/Star.svg" alt="" class="download__star-pattern">
+                        <img src="asset/img/Star.svg" alt="" class="download__star-pattern">
+                        <img src="asset/img/Star.svg" alt="" class="download__star-pattern">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer__content">
+                        <div class="footer__logo">
+                            <div class="logo">
+                                <img class="header__logo--icon" src="asset/icon/online-banking 1.svg" alt="online-banking" class="">
+                                <img class="header__logo--icon" src="asset/icon/CeloBank.svg" alt="" class="celoBank">
+                            </div>
+                        </div>
+                        <div class="footer__list">
+                            <h3 class="footer__heading">Sitemap</h3>
+                            <a href="" class="footer__item">Home</a>
+                            <a href="" class="footer__item">Abouts</a>
+                            <a href="" class="footer__item">Growers</a>
+                            <a href="" class="footer__item">Merchants</a>
+                            <a href="" class="footer__item">Contact</a>
+                        </div>
+                        <div class="footer__list">
+                            <h3 class="footer__heading">Socials</h3>
+                            <a href="" class="footer__item">Facebook</a>
+                            <a href="" class="footer__item">Linkedin</a>
+                            <a href="" class="footer__item">Instagram</a>
+                            <a href="" class="footer__item">Twitter</a>
+                        </div>
+                        <div class="footer__list">
+                            <h3 class="footer__heading">Head Office</h3>
+                            <a href="" class="footer__item">Xilliams Corner Wine © 2017. 1112 A Market St # Ste B22, Charlottesville, CA 45565</a>
+                            <h3 class="footer__heading-form">News letter</h3>
+                            <form action="" class="footer__form">
+                                <input type="email" name="" id="" class="footer__form-input" placeholder="Email address...">
+                                <button class="btn footer__form-btn">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer__contact">
+                        <span class="footer__contact-text">email@gmail.com</span>
+                        <span class="footer__contact-text">(123) 456-7890</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copy-right">
+            <p class="footer__copy-right-text">© 2020 Ligft Media All rights reserved.</p>
+        </div>
+    </footer>
    </main>
+   <script src="./asset/animation/wow.min.js"></script>
+   <script>
+    new WOW().init();
+    </script>
 </body>
 </html>

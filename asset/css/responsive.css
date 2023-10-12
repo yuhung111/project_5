@@ -1,18 +1,24 @@
-/* Mobile and Tablet */
-@media (max-width: 1023px) {
-    .hide-on-mobile-tablet{
-        display: none;
-    }
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
 }
-/* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
-    .hide-on-tablet{
-        display: none;
-    }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
 }
-/* Mobile */
-@media (max-width: 739px) {
-    .hide-on-mobile{
-        display: none;
-    }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
 }
